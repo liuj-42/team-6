@@ -50,18 +50,9 @@ a{
     line-height: 30px;
 }
 
-/*different color for when link has been visited*/
-a:visited {
-    color: rgb(117, 25, 86);
-}
-
 /*different color for hovering over a link*/
 a:hover{
     color: rgb(212, 120, 181);
-}
-
-a:visited:hover{
-    color: rgb(146, 67, 120);
 }
 
 /*different color for holding on/selecting a link*/
