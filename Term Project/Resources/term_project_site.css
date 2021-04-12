@@ -5,8 +5,25 @@ body {
     text-align: center;
 }
 
-#title {
+#home_title {
     font-size: 28px;
+}
+
+.title {
+    text-align: left;
+    font-size: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+.return {
+    padding: 35px 60px 0 0;
+    text-align: right;
+    font-size: 28px;
+}
+
+.return a {
+    color: #cf2a27;
 }
 
 #quoteBlock {
@@ -28,7 +45,6 @@ body {
     border: none;
 }
 
-
 #siteDescBlock {
     display: inline-block;
     padding: 0 10px 0 10px;
@@ -39,4 +55,12 @@ body {
     display: inline-block;
     padding: 0 10px 0 10px;
     background: #e06666;
+}
+
+#stressAlleviationCategories {
+    font-size: 30px;
+}
+
+#stressAlleviationCategories a {
+    color: darkred;
 }
