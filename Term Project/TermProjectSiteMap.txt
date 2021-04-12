@@ -10,5 +10,4 @@ Term Project Site (folder):
    - Other Helpful Resources page (other_helpful_resources.html)
    - Mental Health Form page (mental_health_form.html)
    - Resources (folder):
-      - TermProjectSite.css (CSS stylesheet)
-      - wallpaper.jpg (Site Wallpaper/Background)
+      - term_project.css (CSS stylesheet)
