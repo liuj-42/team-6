@@ -7,7 +7,7 @@ Term Project Site (folder):
       - Stress Alleviation Category 3 page (stress_alleviation_category3.html)
       - Stress Alleviation Category 4 page (stress_alleviation_category4.html)
       - Stress Alleviation Category 5 page (stress_alleviation_category5.html)
-   - Other Helpful Resources page (other_helpful_resources.html)
    - Mental Health Form page (mental_health_form.html)
+   - Other Helpful Resources page (other_helpful_resources.html)
    - Resources (folder):
       - term_project.css (CSS stylesheet)
