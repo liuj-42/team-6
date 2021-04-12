@@ -21,14 +21,22 @@ body {
 
 #linkBar a {
     padding: 8px;
-    border-left: 3px solid black;
     border-right: 3px solid black;
 }
-/*
-#siteDescBlock {
 
+#linkBar a:last-child {
+    border: none;
+}
+
+
+#siteDescBlock {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    background: #e06666;
 }
 
 #commonTipsBlock {
-    
-}*/
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    background: #e06666;
+}
