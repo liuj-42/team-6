@@ -58,6 +58,10 @@ a:visited:active {
     color: #a04e4c;
 }
 
+.darkRedText {
+    color: rgb(95, 11, 11);
+}
+
 #quoteBlock {
     font-size: 14px;
     margin-top: -20px;
@@ -85,6 +89,7 @@ a:visited:active {
 }
 
 #commonTipsBlock {
+    text-align: left;
     display: inline-block;
     padding: 0 10px 0 10px;
     background: #e06666;
