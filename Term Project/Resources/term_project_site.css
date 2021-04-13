@@ -81,12 +81,14 @@ a:visited:active {
     display: inline-block;
     padding: 0 10px 0 10px;
     background: #E57F7F;
+    margin: 0 50px 0 50px;
 }
 
 #commonTipsBlock {
     display: inline-block;
     padding: 0 10px 0 10px;
     background: #e06666;
+    margin: 0 50px 0 50px;
 }
 
 #stressAlleviationCategories {
