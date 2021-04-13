@@ -5,6 +5,30 @@ body {
     text-align: center;
 }
 
+a {
+    color: darkred;
+}
+
+a:hover {
+    color: rgb(192, 22, 22);
+}
+
+a:active {
+    color: rgb(143, 56, 56);
+}
+
+a:visited {
+    color: rgb(97, 9, 38);
+}
+
+a:visited:hover {
+    color: rgb(153, 17, 63);
+}
+
+a:visited:active {
+    color: rgb(104, 50, 68);
+}
+
 #home_title {
     font-size: 28px;
 }
@@ -24,6 +48,14 @@ body {
 
 .return a {
     color: #cf2a27;
+}
+
+.return a:hover {
+    color: #f04946;
+}
+
+.return a:active {
+    color: #a04e4c;
 }
 
 #quoteBlock {
@@ -59,8 +91,4 @@ body {
 
 #stressAlleviationCategories {
     font-size: 30px;
-}
-
-#stressAlleviationCategories a {
-    color: darkred;
 }
