@@ -86,6 +86,7 @@ a:visited:active {
     padding: 0 10px 0 10px;
     background: #E57F7F;
     margin: 0 50px 0 50px;
+    border: 2px solid rgb(92, 48, 48);
 }
 
 #commonTipsBlock {
@@ -94,6 +95,7 @@ a:visited:active {
     padding: 0 10px 0 10px;
     background: #e06666;
     margin: 0 50px 0 50px;
+    border: 2px solid rgb(112, 35, 35);
 }
 
 #stressAlleviationCategories {
