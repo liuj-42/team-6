@@ -101,3 +101,21 @@ a:visited:active {
 #stressAlleviationCategories {
     font-size: 30px;
 }
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d89696;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c55e5e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #964646;
+}
