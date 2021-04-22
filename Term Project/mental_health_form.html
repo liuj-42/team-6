@@ -28,8 +28,8 @@
   <br/>
 
 <h1>forms wip</h1>
-
-  <form id = "wellbeing-status" name = "Wellbeing status" action = "#" method = "post" onsubmit = "return validateWellbeing(this);">
+<!-- <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);"></form> -->
+  <form id = "wellbeing-status" name = "Wellbeing status" action = "" method = "post" onsubmit = "return validateWellbeing(this);">
     <div class = "wellbeing">
     <fieldset>
 
@@ -37,45 +37,46 @@
       <div>How are you doing, from a scale from 1-10 with 1 being worst and 10 being best </div>
 
       <label for="radio-1">1</label>
-      <input type="radio" name="radio-1" id="radio-1">
+      <input type="radio" name="radio" id="radio-1">
       <label for="radio-2">2</label>
-      <input type="radio" name="radio-1" id="radio-2">
+      <input type="radio" name="radio" id="radio-2">
       <label for="radio-3">3</label>
-      <input type="radio" name="radio-1" id="radio-3">
+      <input type="radio" name="radio" id="radio-3">
       <label for="radio-4">4</label>
-      <input type="radio" name="radio-1" id="radio-4">
+      <input type="radio" name="radio" id="radio-4">
       <label for="radio-5">5</label>
-      <input type="radio" name="radio-1" id="radio-5">
+      <input type="radio" name="radio" id="radio-5">
       <label for="radio-6">6</label>
-      <input type="radio" name="radio-1" id="radio-6">
+      <input type="radio" name="radio" id="radio-6">
       <label for="radio-7">7</label>
-      <input type="radio" name="radio-1" id="radio-7">
+      <input type="radio" name="radio" id="radio-7">
       <label for="radio-8">8</label>
-      <input type="radio" name="radio-1" id="radio-8">
+      <input type="radio" name="radio" id="radio-8">
       <label for="radio-9">9</label>
-      <input type="radio" name="radio-1" id="radio-9">
+      <input type="radio" name="radio" id="radio-9">
       <label for="radio-10">10 </label>
-      <input type="radio" name="radio-1" id="radio-10"> 
+      <input type="radio" name="radio" id="radio-10"> 
       
       
-      <input type="submit" value="save" id="save" name="save" />
+      <input type="submit" value="save" id="save-checkup" name="save" onclick = "return validateWellBeing(this);"/>
+      <!-- <input type="submit" value="save" id="save" name="save" onclick = "return validate(this)"/> -->
     </fieldset>
   </div>
 </form>
 
-<form id="product-reccomendations" name="Product reccomendations" action="#" method="post" onsubmit="return validateProducts(this);">
+<form id="product-reccomendations" name="Product reccomendations" action="" method="post" onsubmit="return validateProducts(this);">
   <div class = "product">
     <fieldset>
       <legend>Product Reccomendations</legend>
       <div>If you have any products that have helped you with managing your mental health, feel free to share about them here</div>
 
       <label class="field" for="products">initials: </label>
-      <input type="text" size="60" value="initials" placeholder = "initials"/> 
+      <input type="text" size="60" placeholder = "initials"/> 
 
      
       <div class="value"><label class="field" for="products" >Description: </label><textarea rows="4" cols="40" name="products" id="products" placeholder="please enter a brief description of the product"></textarea></div>
 
-      
+      <input type="submit" value="save" id="save-products" name="save"/>
     </fieldset>
   </div>
 </form>

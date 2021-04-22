@@ -4,19 +4,35 @@ function focusInitials(formObj) {
 
 $(function() {
     $("input").checkboxradio();
-    // $("fieldset").controlgroup();
 });
 
+// ui-checkboxradio-checked ui-state-active
+
+
 function validateWellbeing(formObj) {
-    var isValid = true;
-    var error = "Form is valid";
-    
+    if ($.validateWellbeing()) {
+        alert("Saved");
+        //one of the buttons has been selected, good
+    } else {
+        alert("You must select one of the buttons in order to submit the form");
+    }
+    return false;
 }
-$(function validateWellBeing(formObj) {
-    var isValid = true;
-    var error = "Form is valid";
-    $("#wellbeing").children().each(function() {
-        var element = $(this).prop('outerHTML');
-    });
-    
-});
+
+$.validateWellbeing = function () {
+    var $selected = $('input[name="radio"]:checked', '#wellbeing-status');
+    if ($selected.length == 0) {
+        return false;
+    } else {
+        return true;
+    }
+};
+
+function validateProducts(formObj) {
+    if (formObj.products.value == "") {
+        alert("You must enter a product to submit the form");
+    } else {
+        alert("Saved");
+    }
+    return false;
+}
