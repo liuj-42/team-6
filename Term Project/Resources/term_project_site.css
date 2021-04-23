@@ -1,15 +1,42 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     background-color: #ea9999;
     text-align: center;
 }
 
+a {
+    font-family: 'Nunito', sans-serif;
+    color: darkred;
+}
+
+a:hover {
+    color: rgb(192, 22, 22);
+}
+
+a:active {
+    color: rgb(143, 56, 56);
+}
+
+a:visited {
+    color: rgb(97, 9, 38);
+}
+
+a:visited:hover {
+    color: rgb(153, 17, 63);
+}
+
+a:visited:active {
+    color: rgb(104, 50, 68);
+}
+
 #home_title {
+    font-family: 'Raleway', sans-serif;
     font-size: 28px;
 }
 
 .title {
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     font-size: 20px;
     float: left;
@@ -17,6 +44,7 @@ body {
 }
 
 .return {
+    font-family: 'Nunito', sans-serif;
     padding: 35px 60px 0 0;
     text-align: right;
     font-size: 28px;
@@ -26,13 +54,26 @@ body {
     color: #cf2a27;
 }
 
+.return a:hover {
+    color: #f04946;
+}
+
+.return a:active {
+    color: #a04e4c;
+}
+
+.darkRedText {
+    color: rgb(95, 11, 11);
+}
+
 #quoteBlock {
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     margin-top: -20px;
 }
 
 #linkBar {
-    font-size: 20px;
+    font-size: 25px;
     padding: 30px;
 }
 
@@ -48,19 +89,38 @@ body {
 #siteDescBlock {
     display: inline-block;
     padding: 0 10px 0 10px;
-    background: #e06666;
+    background: #E57F7F;
+    margin: 0 50px 0 50px;
+    border: 2px solid rgb(92, 48, 48);
 }
 
 #commonTipsBlock {
+    text-align: left;
     display: inline-block;
     padding: 0 10px 0 10px;
     background: #e06666;
+    margin: 0 50px 0 50px;
+    border: 2px solid rgb(112, 35, 35);
 }
 
 #stressAlleviationCategories {
     font-size: 30px;
 }
 
-#stressAlleviationCategories a {
-    color: darkred;
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d89696;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c55e5e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #964646;
 }
