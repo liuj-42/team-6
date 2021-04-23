@@ -11,3 +11,6 @@ Term Project Site (folder):
    - Other Helpful Resources page (other_helpful_resources.html)
    - Resources (folder):
       - term_project.css (CSS stylesheet)
+      - jquery-3.1.1.min.js (JQuery Library)
+      - random_motivational_quote.js (JavaScript for Random Motivational Quote
+	on homepage)
