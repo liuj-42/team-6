@@ -1,21 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Mental Health for Students - Mental Health Form</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link href="Resources/term_project_site.css" rel="stylesheet" type="text/css"/>
-    
-    <!-- External Fonts: Raleway, Quicksand, Nunito, Roboto -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Quicksand:wght@500&family=Raleway:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-  </head>
+<!doctype html>
 
-  <body>
-    <div class="title">
-      <h1>Mental Health Form</h1>
-    </div>
-    <div class="return">
-      <a href="index.html">Return to Home</a>
-    </div>
-  </body>
-  
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <title>Mental Health for Students - Mental Health Form</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="Resources/term_project_site.css" rel="stylesheet" type="text/css"/>
+    <link href = "form.css" rel = "stylesheet" type = "text/css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src = "mental_health_form.js"></script>
+
+</head>
+
+<body>
+  <div class="title">
+    <h1>Mental Health Form</h1> 
+  </div>
+  <div class="return">
+    <a href="index.html">Return to Home</a>
+  </div>
+  <br/>
+  <br/>
+
+<h1>forms wip</h1>
+<!-- <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);"></form> -->
+  <form id = "wellbeing-status" name = "Wellbeing status" action = "" method = "post" onsubmit = "return validateWellbeing(this);">
+    <div class = "wellbeing">
+    <fieldset>
+
+      <legend>Wellbeing checkup</legend>
+      <div>How are you doing, from a scale from 1-10 with 1 being worst and 10 being best </div>
+
+      <label for="radio-1">1</label>
+      <input type="radio" name="radio" id="radio-1">
+      <label for="radio-2">2</label>
+      <input type="radio" name="radio" id="radio-2">
+      <label for="radio-3">3</label>
+      <input type="radio" name="radio" id="radio-3">
+      <label for="radio-4">4</label>
+      <input type="radio" name="radio" id="radio-4">
+      <label for="radio-5">5</label>
+      <input type="radio" name="radio" id="radio-5">
+      <label for="radio-6">6</label>
+      <input type="radio" name="radio" id="radio-6">
+      <label for="radio-7">7</label>
+      <input type="radio" name="radio" id="radio-7">
+      <label for="radio-8">8</label>
+      <input type="radio" name="radio" id="radio-8">
+      <label for="radio-9">9</label>
+      <input type="radio" name="radio" id="radio-9">
+      <label for="radio-10">10 </label>
+      <input type="radio" name="radio" id="radio-10"> 
+      
+      
+      <input type="submit" value="save" id="save-checkup" name="save" onclick = "return validateWellBeing(this);"/>
+      <!-- <input type="submit" value="save" id="save" name="save" onclick = "return validate(this)"/> -->
+    </fieldset>
+  </div>
+</form>
+
+<form id="product-reccomendations" name="Product reccomendations" action="" method="post" onsubmit="return validateProducts(this);">
+  <div class = "product">
+    <fieldset>
+      <legend>Product Reccomendations</legend>
+      <div>If you have any products that have helped you with managing your mental health, feel free to share about them here</div>
+
+      <label class="field" for="products">initials: </label>
+      <input type="text" size="60" placeholder = "initials"/> 
+
+     
+      <div class="value"><label class="field" for="products" >Description: </label><textarea rows="4" cols="40" name="products" id="products" placeholder="please enter a brief description of the product"></textarea></div>
+
+      <input type="submit" value="save" id="save-products" name="save"/>
+    </fieldset>
+  </div>
+</form>
+
+
+<footer>Site Version: v0.3.0</footer>
+
+</body>
+
 </html>
