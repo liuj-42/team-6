@@ -1,0 +1,18 @@
+body {
+    background-image: url("lightmagenta.jpg");
+    background-size: cover;
+    /* background image for the website */
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1 {
+    color:mediumvioletred;
+    text-align: center;
+    border-style: solid;
+    border-color: mediumvioletred;
+    /* heading will be at the center of the website with a solid border around it */
+}
