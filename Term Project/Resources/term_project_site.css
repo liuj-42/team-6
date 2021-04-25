@@ -45,20 +45,37 @@ a:visited:active {
 
 .return {
     font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+}
+
+.return a {
+    color: #972624;
+}
+
+.return a:hover {
+    color: #af3d3b;
+}
+
+.return a:active {
+    color: #613332;
+}
+
+.returnHome {
+    font-family: 'Nunito', sans-serif;
     padding: 35px 60px 0 0;
     text-align: right;
     font-size: 28px;
 }
 
-.return a {
+.returnHome a {
     color: #cf2a27;
 }
 
-.return a:hover {
+.returnHome a:hover {
     color: #f04946;
 }
 
-.return a:active {
+.returnHome a:active {
     color: #a04e4c;
 }
 
@@ -107,6 +124,11 @@ a:visited:active {
     font-size: 30px;
 }
 
+#quotesMenuBar {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 /* Custom Scrollbar */
 
 ::-webkit-scrollbar {
@@ -123,4 +145,8 @@ a:visited:active {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #964646;
+}
+
+.quotes {
+    list-style: none;
 }
