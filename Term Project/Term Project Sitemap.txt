@@ -18,9 +18,5 @@ Term Project Site (folder):
    - Mental Health Form page (mental_health_form.html)
    - Other Helpful Resources page (other_helpful_resources.html)
    - Resources (folder):
-      - term_project.css (CSS stylesheet)
-      - jquery-3.1.1.min.js (JQuery Library)
-      - random_motivational_quote.js (JavaScript for Random Motivational Quote
-	on homepage)
-      - form.css (CSS stylesheet for Mental Health Form)
-      - mental_health_form.js (JavaScript for Mental Health Form)
+      - CSS stylesheet
+      - JavaScript files

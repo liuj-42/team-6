@@ -5,14 +5,20 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-    <title>Mental Health for Students - Mental Health Form</title>
+    <title>Mental Health Form</title>
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link href="Resources/term_project_site.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- External Fonts: Raleway, Quicksand, Nunito, Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Quicksand:wght@500&family=Raleway:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
     <link href = "Resources/form.css" rel = "stylesheet" type = "text/css">
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src = "Resources/ajax-stuff/product-recommendations-ajax.js"></script>
     <script src = "Resources/mental_health_form.js"></script>
 
 </head>
@@ -63,10 +69,10 @@
   </div>
 </form>
 
-<form id="product-reccomendations" name="Product recommendations" action="" method="post" onsubmit="return validateProducts(this);">
+<form id="product-reccomendations" name="Product recomendations" action="" method="post" onsubmit="return validateProducts(this);">
   <div class = "product">
     <fieldset>
-      <legend>Product Reccomendations</legend>
+      <legend>Product Recommendations</legend>
       <div>If you have any products that have helped you with managing your mental health, feel free to share about them here</div>
 
       <label class="field" for="products">initials: </label>
@@ -79,6 +85,8 @@
     </fieldset>
   </div>
 </form>
+
+<div id="product-recommendations"></div>
 
 </body>
 
