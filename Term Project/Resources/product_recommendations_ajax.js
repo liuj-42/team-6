@@ -17,7 +17,7 @@ $(document).ready(function() {
               productInitialsArray.push(String(item.initials));
         });
       
-      var i = Math.floor(Math.random() * 10);
+      var i = Math.floor(Math.random() * productDescArray.length);
       output += productInitialsArray[i] + " reccomends: ";
       output += '<a href = "' + productURLArray[i] + '">';
       output += productNameArray[i] + " </a> - " + productDescArray[i];
