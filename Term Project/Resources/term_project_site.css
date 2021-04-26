@@ -161,6 +161,36 @@ table, th, td {
     font-size: 20px;
 }
 
+#chart1 {
+    width: 500px;
+    float: left;
+}
+
+#chart2 {
+    width: 500px;
+    float: left;
+}
+
+#chart3 {
+    width: 500px;
+    float: left;
+}
+
+#chart4 {
+    width: 500px;
+    float: left;
+}
+
+#chart5 {
+    width: 500px;
+    float: left;
+}
+
+#sources {
+    text-align: left;
+    padding-left: 20px;
+}
+
 /* Custom Scrollbar */
 
 ::-webkit-scrollbar {
