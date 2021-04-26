@@ -124,9 +124,13 @@ a:visited:active {
     font-size: 30px;
 }
 
-#quotesMenuBar {
+.menuBar {
     font-size: 20px;
     line-height: 30px;
+}
+
+#products {
+    font-size: 20px;
 }
 
 /* Custom Scrollbar */
@@ -145,8 +149,4 @@ a:visited:active {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #964646;
-}
-
-.quotes {
-    list-style: none;
 }
