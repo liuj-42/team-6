@@ -1,0 +1,40 @@
+{   "MenuTitle": "Product Reccomendations",
+    "menuItem": [
+        {
+            "productName": "Tea",
+            "productDesc": "Less of a straight up product reccomendation, but more like a reccomendation to drink/consume less stuff with caffine in it. If you're getting enough sleep, you shouldn't need the energy boost from caffine and its not that good in the long run to develop a dependancy on stuff like coffee. I like tea because it is similar to coffee in some ways but I am in no way as dependant on it as I was with coffee.",
+            "productURL": "https://amzn.to/32NMyGs",
+            "initials":"MN"
+        },
+        {
+            "productName": "Exercise/sleep",
+            "productDesc": "I used to have lots of trouble with getting enough sleep because I simply didnt feel tired during the night, even though I was often tired during the day. After I started working out more, I was able to fall asleep much faster and now I feel a lot better about myself.",
+            "productURL": "",
+            "initials":"JL"
+        },
+        {
+            "productName": "Planners",
+            "productDesc": "I used to think that I had good time management, but after I started planning out my days in a planner I feel so proud of myself when I stick to the schedule. I use a website called notion, but anything from google calendar to a notebook will work as long as you can see what you have to do for the day.",
+            "productURL": "notion.so",
+            "initials":"BL"
+        },
+        {
+            "productName": "Lab 4",
+            "productDesc": "XML",
+            "productURL": "ITWS_Labs/Lab04/Lab_4.html",
+            "initials":"JF"
+        },
+        {
+            "productName": "Lab 5",
+            "productDesc": "JavaScript",
+            "productURL": "ITWS_Labs/Lab05/Lab_5.html",
+            "initials":"BB"
+        },
+        {
+            "productName": "Lab 6",
+            "productDesc": " jquery",
+            "productURL": "ITWS_Labs/Lab06/Lab_6_page.html",
+            "initials":"LW"
+        }
+    ]
+}
