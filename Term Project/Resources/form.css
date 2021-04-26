@@ -1,0 +1,18 @@
+#page-wrap {
+    width: 30%;
+    margin: auto;
+}
+
+.ui-state-active{
+
+    border:1px solid #008B8B !important;
+
+    background:#008B8B !important;
+
+}
+
+.ui-icon-background, .ui-state-active .ui-icon-background{
+
+    border:#26dcdc;
+
+}
