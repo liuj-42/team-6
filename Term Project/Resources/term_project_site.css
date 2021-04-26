@@ -146,7 +146,6 @@ a:visited:active {
     font-size: 20px;
     text-align: left;
     padding-left: 20px;
-    list-style-type: none;
 }
 
 table, th, td {
@@ -189,6 +188,12 @@ table, th, td {
 #sources {
     text-align: left;
     padding-left: 20px;
+}
+
+#links {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 /* Custom Scrollbar */

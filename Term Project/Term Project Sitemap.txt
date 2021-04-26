@@ -20,3 +20,4 @@ Term Project Site (folder):
    - Resources (folder):
       - CSS stylesheet
       - JavaScript files
+      - Ajax files (for Mental Health Form page)
