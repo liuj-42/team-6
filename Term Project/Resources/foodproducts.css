@@ -1,0 +1,19 @@
+body {
+    background-image: url("lightpurple.jpg");
+    background-size: cover;
+    /* background image for the website */
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1 {
+    color:blueviolet;
+    text-align: center;
+    border-style: solid;
+    border-color: purple;
+    /* heading will be at the center of the website with a solid border around it */
+}
+
+

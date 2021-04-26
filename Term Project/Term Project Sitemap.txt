@@ -1,0 +1,23 @@
+Term Project Site (folder):
+   - Home page (index.html)
+   - Stress Alleviation Categories page (stress_alleviation_categories.html)
+   - Stress Alleviation Categories (folder):
+      - Mental Health Statistics page (mentalhealthstatisticspage.html)
+      - Daily Quotes page (dailyquotes.html)
+      - Daily Quotes (folder):
+         - Morning Quotes (morningquotes.html)
+         - Afternoon/Evening Quotes (eveningafternoonquotes.html)
+         - Night Quotes (nightquotes.html)
+         - Quotes for Stressful Times (quotesforstressfultimes.html)
+      - Sample Schedule page (sampleschedule.html)
+      - Products for Relaxation page (products.html)
+      - Food Products page (foodproducts.html)
+   - Mental Health Form page (mental_health_form.html)
+   - Other Helpful Resources page (other_helpful_resources.html)
+   - Resources (folder):
+      - term_project.css (CSS stylesheet)
+      - jquery-3.1.1.min.js (JQuery Library)
+      - random_motivational_quote.js (JavaScript for Random Motivational Quote
+	on homepage)
+      - form.css (CSS stylesheet for Mental Health Form)
+      - mental_health_form.js (JavaScript for Mental Health Form)
