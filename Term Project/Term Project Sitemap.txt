@@ -2,16 +2,19 @@ Term Project Site (folder):
    - Home page (index.html)
    - Stress Alleviation Categories page (stress_alleviation_categories.html)
    - Stress Alleviation Categories (folder):
-      - Mental Health Statistics page (mentalhealthstatisticspage.html)
-      - Daily Quotes page (dailyquotes.html)
+      - Mental Health Statistics page (mental_health_statistics.html)
+      - Daily Quotes page (daily_quotes.html)
       - Daily Quotes (folder):
-         - Morning Quotes (morningquotes.html)
-         - Afternoon/Evening Quotes (eveningafternoonquotes.html)
-         - Night Quotes (nightquotes.html)
-         - Quotes for Stressful Times (quotesforstressfultimes.html)
-      - Sample Schedule page (sampleschedule.html)
-      - Products for Relaxation page (products.html)
-      - Food Products page (foodproducts.html)
+         - Morning Quotes (morning_quotes.html)
+         - Afternoon/Evening Quotes (afternoon_evening_quotes.html)
+         - Night Quotes (night_quotes.html)
+         - Quotes for Stressful Times (quotes_for_stressful_times.html)
+      - Sample Schedule page (sample_schedule.html)
+      - Products for Relaxation page (products_for_relaxation.html)
+      - Healthy Foods and Drinks page (healthy_food_and_drinks.html)
+      - Healthy Foods and Drinks (folder):
+         - Healthy Foods (healthy_foods.html)
+         - Healthy Drinks (healthy_drinks.html)
    - Mental Health Form page (mental_health_form.html)
    - Other Helpful Resources page (other_helpful_resources.html)
    - Resources (folder):
