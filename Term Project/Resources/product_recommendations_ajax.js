@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $.ajax({
       type: "GET",
-      url: "product_recommendations.json",
+      url: "Resources/product_recommendations.json",
       dataType: "json",
       success: function(responseData, status){
         var productDescArray = [];
