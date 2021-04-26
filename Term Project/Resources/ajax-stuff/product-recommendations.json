@@ -1,0 +1,40 @@
+{   "MenuTitle": "Product Reccomendations",
+    "menuItem": [
+        {
+            "productName": "Tea",
+            "productDesc": "Less of a straight up product reccomendation, but more like a reccomendation to drink/consume less stuff with caffine in it. If you're getting enough sleep, you shouldn't need the energy boost from caffine and its not that good in the long run to develop a dependancy on stuff like coffee. I like tea because it is similar to coffee in some ways but I am in no way as dependant on it as I was with coffee.",
+            "productURL": "https://amzn.to/32NMyGs",
+            "initials":"MN"
+        },
+        {
+            "productName": "Exercise/sleep",
+            "productDesc": "I used to have lots of trouble with getting enough sleep because I simply didnt feel tired during the night, even though I was often tired during the day. After I started working out more, I was able to fall asleep much faster and now I feel a lot better about myself.",
+            "productURL": "",
+            "initials":"JL"
+        },
+        {
+            "productName": "Planners",
+            "productDesc": "I used to think that I had good time management, but after I started planning out my days in a planner I feel so proud of myself when I stick to the schedule. I use a website called notion, but anything from google calendar to a notebook will work as long as you can see what you have to do for the day.",
+            "productURL": "notion.so",
+            "initials":"BL"
+        },
+        {
+            "productName": "bath bombs",
+            "productDesc": "For me, bath themselves help me relax, and bath bombs help me take that one step further.",
+            "productURL": "https://wish.link/2Qo24q1",
+            "initials":"JF"
+        },
+        {
+            "productName": "meditating",
+            "productDesc": "People might think of meditating as something that takes up lots of your time, but I found that the app headspace helped me realize the benifits of meditaion in an amount of time that is a lot shorter than I expected. Now whenever I feel stressed I have a way to calm myself down and get into the right state of mind",
+            "productURL": "https://www.headspace.com/meditation",
+            "initials":"BB"
+        },
+        {
+            "productName": "Reading",
+            "productDesc": "Reading is something that I used to do a long time ago but stopped, but lately I have gotten back to it. I don't need to read an entire book in one sitting, but reading allows me to escape from reality for a bit and calm me down.",
+            "productURL": "https://www.takingcharge.csh.umn.edu/reading-stress-relief#:~:text=Reading%20can%20even%20relax%20your,a%20hot%20cup%20of%20tea.",
+            "initials":"LW"
+        }
+    ]
+}
