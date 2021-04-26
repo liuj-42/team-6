@@ -191,6 +191,12 @@ table, th, td {
     padding-left: 20px;
 }
 
+#links {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+
 /* Custom Scrollbar */
 
 ::-webkit-scrollbar {
