@@ -19,21 +19,21 @@
             "initials":"BL"
         },
         {
-            "productName": "Lab 4",
-            "productDesc": "XML",
-            "productURL": "ITWS_Labs/Lab04/Lab_4.html",
+            "productName": "bath bombs",
+            "productDesc": "For me, bath themselves help me relax, and bath bombs help me take that one step further.",
+            "productURL": "https://wish.link/2Qo24q1",
             "initials":"JF"
         },
         {
-            "productName": "Lab 5",
-            "productDesc": "JavaScript",
-            "productURL": "ITWS_Labs/Lab05/Lab_5.html",
+            "productName": "meditating",
+            "productDesc": "People might think of meditating as something that takes up lots of your time, but I found that the app headspace helped me realize the benifits of meditaion in an amount of time that is a lot shorter than I expected. Now whenever I feel stressed I have a way to calm myself down and get into the right state of mind",
+            "productURL": "https://www.headspace.com/meditation",
             "initials":"BB"
         },
         {
-            "productName": "Lab 6",
-            "productDesc": " jquery",
-            "productURL": "ITWS_Labs/Lab06/Lab_6_page.html",
+            "productName": "Reading",
+            "productDesc": "Reading is something that I used to do a long time ago but stopped, but lately I have gotten back to it. I don't need to read an entire book in one sitting, but reading allows me to escape from reality for a bit and calm me down.",
+            "productURL": "https://www.takingcharge.csh.umn.edu/reading-stress-relief#:~:text=Reading%20can%20even%20relax%20your,a%20hot%20cup%20of%20tea.",
             "initials":"LW"
         }
     ]
